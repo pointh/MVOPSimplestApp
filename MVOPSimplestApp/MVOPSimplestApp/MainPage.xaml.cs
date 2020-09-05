@@ -23,8 +23,9 @@ namespace MVOPSimplestApp
         private void Button_Clicked(object sender, EventArgs e)
         {
             // Ukončování aplikace není něco, co se od mobilního prg očekává
+            // Pokud chce uživatel odejít, má nato v GUI jiné prostředky (kolečko, šipka vlevo)
             // Application.Current.Quit();
-            this.Navigation.PopAsync();
+            // this.Navigation.PopAsync();
         }
 
         private void Button_Clicked_DalsiStrana(object sender, EventArgs e)

@@ -10,6 +10,7 @@ namespace MVOPSimplestApp
         {
             InitializeComponent();
 
+            // Když se má stát kořenem navigace, musí být NavigationPage
             MainPage = new NavigationPage(new MainPage());
         }
 
